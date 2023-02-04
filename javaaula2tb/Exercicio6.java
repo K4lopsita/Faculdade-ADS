@@ -16,8 +16,7 @@ public class Exercicio6 {
         double pi = 3.14159;
         //Calculo - C = 2 x pi x r
         double circ = 2 * pi * raio;
-        System.out.println("A circunferencia e: " + circ);
-        
+        System.out.println("A circunferencia e: " + circ + " cm");
         
     }
 

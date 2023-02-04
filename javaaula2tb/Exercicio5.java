@@ -10,11 +10,11 @@ public class Exercicio5 {
 
         System.out.println("Qual o comprimento das laterais do seu quadrado?");
         float lado = sc.nextFloat();
-        System.out.println("O comprimento da lateral e: " + lado);
+        System.out.println("O comprimento da lateral e: " + lado + " cm");
         
         //Area = lado x lado
         resultado = lado * lado;
-        System.out.println("A area do seu quadrado e: " + resultado);
+        System.out.println("A area do seu quadrado e: " + resultado + " cm²");
 
     }
 

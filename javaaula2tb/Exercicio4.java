@@ -5,8 +5,8 @@ public class Exercicio4 {
         Scanner sc = new Scanner(System.in);
         float media;
         
-        /*Exercicio 4 - Faça um para representar o cáculo da média aritmética
-        das seguintes notas: 8.0, 7.5, 4.5 e 9*/
+        /*Exercicio 4 - Faça um algoritmo para representar o cálculo da média 
+        aritmética das seguintes notas: 8.0, 7.5, 4.5 e 9*/
         System.out.println("Qual e a primeira nota?");
         float nota1 = sc.nextFloat();
         System.out.println("Sua primeira nota e: " + nota1);
@@ -26,6 +26,7 @@ public class Exercicio4 {
         //Media = 
         media = (nota1 + nota2 + nota3 + nota4)/4;
         System.out.println("A media e: " + media);
+        
     }
     
 }
