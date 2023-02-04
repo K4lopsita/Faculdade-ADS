@@ -23,7 +23,7 @@ public class Exercicio4 {
         float nota4 = sc.nextFloat();
         System.out.println("Sua quarta nota e: " + nota4);
         
-        //Media = (n1+n2+n3+n4)/4
+        //Media = (n1+n2+n3+n4) / 4
         media = (nota1 + nota2 + nota3 + nota4)/4;
         System.out.println("A media e: " + media);
         
