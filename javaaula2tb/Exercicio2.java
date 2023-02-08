@@ -7,14 +7,20 @@ public class Exercicio2 {
     public static void main(String[] args) {
         Scanner scAlfa = new Scanner(System.in);
         Scanner scNum = new Scanner(System.in);
+        String nome;
+        double altura, peso;
+        int idade;
+        
         System.out.println("Digite seu nome:");
-        String nome = scAlfa.nextLine();
-        System.out.println("O nome digitado foi: " + nome);
-        System.out.println("Digite sua idade");
-        int idade = scNum.nextInt();
-        System.out.println("A sua idade é: " + idade);
+        nome = scAlfa.nextLine();
+        System.out.println("Digite sua idade:");
+        idade = scNum.nextInt();
         System.out.println("Digite seu peso:");
-        int peso = scNum.nextInt();
-        System.out.println("O seu peso é: " + peso);
+        peso = scNum.nextDouble();
+        System.out.println("Digite sua altura:");
+        altura = scNum.nextDouble();
+        
+        System.out.println("Nome: " + nome + " Idade: " + idade);
+        System.out.println("Peso: " + peso + " Altura: " + altura);
     }
 }
