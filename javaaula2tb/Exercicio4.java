@@ -3,29 +3,19 @@ import java.util.Scanner;
 public class Exercicio4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        float media;
+        double media;
         
         /*Exercicio 4 - Faça um algoritmo para representar o cálculo da média 
         aritmética das seguintes notas: 8.0, 7.5, 4.5 e 9*/
-        System.out.println("Qual e a primeira nota?");
-        float nota1 = sc.nextFloat();
-        System.out.println("Sua primeira nota e: " + nota1);
-        
-        System.out.println("Qual e a segunda nota?");
-        float nota2 = sc.nextFloat();
-        System.out.println("Sua segunda nota e: " + nota2);
-        
-        System.out.println("Qual e a terceira nota?");
-        float nota3 = sc.nextFloat();
-        System.out.println("Sua terceira nota e: " + nota3);
-        
-        System.out.println("Qual e a quartat nota?");
-        float nota4 = sc.nextFloat();
-        System.out.println("Sua quarta nota e: " + nota4);
+        System.out.println("Digite as 4 notas:");
+        double nota1 = sc.nextDouble();
+        double nota2 = sc.nextDouble();
+        double nota3 = sc.nextDouble();
+        double nota4 = sc.nextDouble();
         
         //Media = (n1+n2+n3+n4) / 4
         media = (nota1 + nota2 + nota3 + nota4)/4;
-        System.out.println("A media e: " + media);
+        System.out.println("A média e: " + media);
         
     }
     
